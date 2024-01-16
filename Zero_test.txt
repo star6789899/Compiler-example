@@ -1,0 +1,14 @@
+procedure name ; begin
+	var 
+		a ,  b , c : integer ;	
+	a := b + c ;
+	case (a) of 
+		1 : c := a ;
+			case (b - c) of
+				1 : c := c + b ;
+				2 : c := c - b ;
+			end;
+		2 : c := a + b + c ;
+	end ;
+
+end

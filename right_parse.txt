@@ -1,0 +1,52 @@
+Procedure    ->     _  Begin  Descriptions  Operators  End  
+End    ->     _  end  
+Operators    ->     _  Op  
+Op    ->     _  Id  :=  Expr  ;  
+Expr    ->     _  SimpleExpr  +  Expr  
+Expr    ->     _  SimpleExpr  +  Expr  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  c  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  a  
+Id    ->     _  Letter  Id  
+Id    ->     _  Letter  Id  
+Id    ->     _  Letter  
+Letter    ->     _  m  
+Letter    ->     _  u  
+Letter    ->     _  s  
+Descriptions    ->     _  var  DescrList  
+DescrList    ->     _  Descr  
+Descr    ->     _  VarList  :  Type  ;  
+Type    ->     _  integer  
+VarList    ->     _  Id  ,  VarList  
+VarList    ->     _  Id  ,  VarList  
+VarList    ->     _  Id  ,  VarList  
+VarList    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  c  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+Id    ->     _  Letter  
+Letter    ->     _  a  
+Id    ->     _  Letter  Id  
+Id    ->     _  Letter  Id  
+Id    ->     _  Letter  
+Letter    ->     _  m  
+Letter    ->     _  u  
+Letter    ->     _  s  
+Begin    ->     _  procedure  ProcedureName  ;  begin  
+ProcedureName    ->     _  Id  
+Id    ->     _  Letter  Id  
+Id    ->     _  Letter  Id  
+Id    ->     _  Letter  Id  
+Id    ->     _  Letter  
+Letter    ->     _  e  
+Letter    ->     _  m  
+Letter    ->     _  a  
+Letter    ->     _  n  

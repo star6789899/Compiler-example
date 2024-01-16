@@ -1,0 +1,3 @@
+name DECL
+integer sum a b c  5 DECL
+sum a b c + + :=  

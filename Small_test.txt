@@ -1,0 +1,8 @@
+procedure name ; begin
+
+	var 
+		sum , a , b , c : integer ;	
+	
+	sum := a + b + c ;
+	
+end

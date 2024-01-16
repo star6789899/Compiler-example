@@ -1,0 +1,15 @@
+separator + 43
+separator , 44
+operator : 58
+operator ; 59
+identifier a 97
+identifier b 98
+identifier c 99
+operator := 119
+key_word end 311
+key_word var 329
+identifier sum 341
+identifier name 417
+key_word begin 517
+key_word integer 750
+key_word procedure 969
